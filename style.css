@@ -29,7 +29,8 @@
 }
 h2 {
     text-align: center;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-weight: 100%;
     margin: 0;
     font-weight: bold;
     color: rgba( 0, 0, 0, 0.9);
@@ -42,10 +43,10 @@ h2 {
     color: black;
 }
 .kalimat{
+    text-align: center;
     margin: 0 auto;
     padding-top: 20px;
-    width: 450px;
-    height: auto;
+    font-weight: 100%;
     color: rgb(173, 107, 8);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

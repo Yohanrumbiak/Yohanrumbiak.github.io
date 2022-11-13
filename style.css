@@ -1,0 +1,408 @@
+/* Halaman Utama */
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+.text{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.main {
+    width: 500px;
+    height: 520px;
+    background-color: rgba(255, 244, 225, 0.9);
+    margin: 0 auto;
+    padding-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+}
+.img {
+    background-image: url(Bongso08.jpg);
+    background-color: #eaeaea;
+    background-size: cover;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px #eaeaea;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    color: rgba( 0, 0, 0, 0.9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    color: black;
+}
+.kalimat{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    color: rgb(173, 107, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.text {
+    color: rgba(13, 226, 241, 0.9);
+    font-family: arial;
+    font-weight: bold;
+}
+/* Akhir Halaman Utama */
+
+
+/* --Lampu Ajaib-- */
+.lampu-ajaib {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.lampu-ajaib .warnah {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    animation: grow 1.6s ease-in-out infinite;
+}
+
+@keyframes grow {
+    0% , 40% , 100% {
+        transform: scale(0.2);
+    }
+    20% {
+        transform: scale(1);
+    }
+}
+
+.lampu-ajaib .warnah:nth-child(1) {
+    animation-delay: -1.4s;
+    background: #ffff00;
+    box-shadow: 0 0 50px #ffff00;
+}
+.lampu-ajaib .warnah:nth-child(2) {
+    animation-delay: -1.2s;
+    background: #76ff03;
+    box-shadow: 0 0 50px #76ff03;
+}
+.lampu-ajaib .warnah:nth-child(3) {
+    animation-delay: -1s;
+    background: #f06292;
+    box-shadow: 0 0 50px #f06292;
+}
+.lampu-ajaib .warnah:nth-child(4) {
+    animation-delay: -0.8s;
+    background: #4fc3f7;
+    box-shadow: 0 0 50px #4fc3f7;
+}
+.lampu-ajaib .warnah:nth-child(5) {
+    animation-delay: -0.6s;
+    background: #ba68c8;
+    box-shadow: 0 0 50px #ba68c8;
+}
+.lampu-ajaib .warnah:nth-child(6) {
+    animation-delay: -0.4s;
+    background: #f57c00;
+    box-shadow: 0 0 50px #f57c00;
+}
+.lampu-ajaib .warnah:nth-child(7) {
+    animation-delay: -0.2s;
+    background: #673ab7;
+    box-shadow: 0 0 50px #673ab7;
+}
+/* --Akhir Lampu Ajaib-- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 500%;
+}
+
+b {
+    font-weight: 700;
+}
+
+#landing-page {
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("khetty.jpg");
+}
+
+#landing-page h1 {
+    color: rgba(65, 61, 53, 0.9);
+}
+
+.welcome-text {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: white;
+    transform: scale(.8);
+}
+
+ul.nav {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+}
+
+.nav > li {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.nav > li > a {
+    padding: 1em 2em;
+display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.nav > li > a:hover {
+    background-color: teal;
+}
+
+hr {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.section-introduction, .section-education, .section-working {
+    text-align: center;
+}
+
+.section-education, .section-working {
+    display: inline-block;
+    margin-top: 5em;
+}
+
+.img-icon {
+    max-width: 12em;
+}
+
+#about-me {
+    padding: 2em 0;
+}
+
+.content-perkenalan {
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 24em;
+    margin: 1em auto;
+    text-align: justify;
+}
+
+.title-portofolio, .title-contact-us {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.desktop { 
+    display: none !important;
+}
+
+#portofolio {
+    width: 100%;
+    padding: 2em 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-portfolio {
+    max-width: 300px;
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.form-contact-us, .contact-info {
+    width: 100%;
+    text-align: center;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.inputan > label {
+    display: block;
+    font-size: 1.2em;
+}
+
+.inputan > input, .inputan > textarea {
+    width: 100%;
+    margin: .5em 0;
+    font-size: 1em;
+}
+
+/* ---Style Button--- */
+div.ilmu {
+    margin: 5px;
+}
+
+button {
+    background-color: teal;
+    border: none;
+    padding: 8px 35px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+
+button:hover {
+    background-color: teal;
+    box-shadow: 0px 10px 1px black;
+    transform: translateY(-10px);
+}
+
+button:active {
+    box-shadow: 0px 5px 1px black;
+    transform: translateY(-5px);
+    background-color: rgb(187, 5, 5);
+}
+
+button:focus {
+    outline: none; 
+}
+/* ---------------------- */
+
+/* .btn-kirim {
+    width: 85%;
+    margin: 1em 0;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    padding: .5em 0;
+} */
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em 0;
+    color: white;
+    background-color: black;
+}
+
+.contact-icon {
+    width: 50px;
+    margin: 2em;
+}
+
+.contact-desktop {
+    display: none;
+}
+
+.contact-icon-bundler {
+    display: block;
+}
+
+.contact-info > div {
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .non-desktop {
+        display: none;
+    }
+    .desktop {
+        display: block !important;
+    }
+    li.nav-icon {
+        padding: 0;
+        width: 45px;
+        margin: .3em 1em;
+        float: left;
+    }
+
+    .nav-icon > img {
+        width: 100%;
+    }
+
+    ul.nav {
+        text-align: right;
+    }
+
+    .section-working, .section-education {
+        width: 49.5%;
+        vertical-align: top;
+    }
+
+    hr {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .form-contact-us, .contact-info {
+        width: 49.5%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #contact-us {
+        vertical-align: top;
+    }
+
+    .contact-desktop {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .contact-icon-bundler {
+        display: inline-block;
+        min-width: 300px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .contact-icon {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contact-info > div {
+        display: block;
+    }
+}

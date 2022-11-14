@@ -1,13 +1,5 @@
 /* Halaman Utama */
 @import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
-.text{
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    color: white;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-}
 .main {
     width: 85%;
     height: 520px;
@@ -40,7 +32,8 @@ h2 {
     text-align: center;
     font-size: 15px;
     margin: 0;
-    color: black;
+    color: rgb(238, 8, 8);
+    font-weight: bold;
 }
 .kalimat{
     text-align: center;
@@ -49,11 +42,6 @@ h2 {
     font-weight: 100%;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-div.text {
-    color: rgba(247, 9, 9, 0.945);
-    font-family: arial;
-    font-weight: bold;
 }
 /* Akhir Halaman Utama */
 

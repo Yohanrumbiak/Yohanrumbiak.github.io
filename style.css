@@ -33,7 +33,7 @@ h2 {
     font-weight: 100%;
     margin: 0;
     font-weight: bold;
-    color: rgba( 0, 0, 0, 0.9);
+    color: rgb(13, 141, 245);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .text {
@@ -47,11 +47,11 @@ h2 {
     margin: 0 auto;
     padding-top: 20px;
     font-weight: 100%;
-    color: rgb(173, 107, 8);
+    color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 div.text {
-    color: rgba(13, 226, 241, 0.9);
+    color: rgba(247, 9, 9, 0.945);
     font-family: arial;
     font-weight: bold;
 }
@@ -61,7 +61,7 @@ div.text {
 /* --Lampu Ajaib-- */
 .lampu-ajaib {
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
     margin: 0;
